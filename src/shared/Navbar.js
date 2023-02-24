@@ -8,7 +8,12 @@ export const Navbar = () => {
       <div className="w-screen bg-black text-white">
         <div className="navbar_outer">
           <div className="navbar_left">
-            <img src={Logo} alt="logo..."></img>
+            <Link to="home"
+              spy={true}
+              smooth={true}
+              offset={-100}
+              duration={500}
+              style={{cursor: "pointer"}}><img src={Logo} alt="logo..."></img></Link>
           </div>
           <div className="navbar_right font view_mobile">
             <Link

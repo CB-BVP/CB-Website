@@ -13,14 +13,8 @@ export const About = () => {
           </div>
           <div className="about_content_outer">
             <div className="about_content_outer_box about_content_outer">
-              <div className="about_content_inner">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem,
-                dicta voluptatum. Minus nemo voluptatibus ut obcaecati, tempora
-                animi corrupti vel officiis, unde fuga sequi veniam facere!
-                Corporis voluptates aspernatur similique numquam dolorum, autem
-                dicta inventore debitis odio, fugit mollitia maxime tenetur
-                neque laudantium libero quia. Fugiat reiciendis modi dicta
-                laudantium.
+              <div className="about_content_inner" style={{fontFamily: "'Roboto', serif"}}>
+              Campus Blocks BVP is a technical society which was started in 2019, in association with <strong>Coding Blocks</strong>, with an aim to help students to hone their coding skills through guidance and events like hackathons.
               </div>
             </div>
           </div>
