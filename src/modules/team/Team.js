@@ -46,14 +46,14 @@ export const Team = () => {
         </div>
         </div>
         <div className="text-center mt-2 text-2xl font-bold">Lead Core</div>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-8 gap-y-4 m-auto w-fit mt-8">
-          <Team_card
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 m-auto w-fit mt-8">
+          {/* <Team_card
             name="Akriti Saxena"
             designation="Vice Chairperson"
             instagram="https://www.instagram.com/Akritisaxena_08"
             linkedin="https://www.linkedin.com/in/akriti-saxena-083471203"
             photo={akriti}
-          />
+          /> */}
           <Team_card
             name="Parth Bhasin"
             designation="Chairperson"
@@ -65,7 +65,7 @@ export const Team = () => {
             name="Gaurav"
             designation="Vice Chairperson"
             instagram="https://www.instagram.com/gauravvv_1"
-            linkedin="http://www.linkedin.com/in/gaurav-koli-719850201"
+            linkedin="https://www.linkedin.com/in/notgaurav/"
             photo={gaurav}
           />
         </div>
@@ -147,7 +147,7 @@ export const Team = () => {
             photo={adityaRaghav}
           />
         </div>
-        <div className="text-center mt-2 text-2xl font-bold">Publicity Heads</div>
+        {/* <div className="text-center mt-2 text-2xl font-bold">Publicity Heads</div>
         <div className="grid grid-cols-1 sm:grid-cols-1 gap-x-8 gap-y-4 m-auto w-fit mt-8">
           <Team_card
             name="Aditya Pant"
@@ -156,7 +156,7 @@ export const Team = () => {
             linkedin="http://www.linkedin.com/in/chirag-jagyani-3540061b6"
             photo={logo}
           />
-        </div>
+        </div> */}
       </div>
     </>
   );

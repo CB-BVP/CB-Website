@@ -1,5 +1,6 @@
 import "../../css/upcoming events/Upcoming_events.css";
-import upcoming_event_image from "../../assets/images/upcoming_event_photo.jpg";
+import techAThlon from "../../assets/images/techAThlon.jpeg";
+import geekOut from "../../assets/images/geekOut.jpeg";
 import { Frame_top } from "../../shared/Frame_top";
 import { Frame_bottom } from "../../shared/Frame_bottom";
 
@@ -44,7 +45,7 @@ export const Upcoming_event = () => {
               <div>
                 <img
                   className="upcoming_event_middle_right_photo upcoming_event_photo"
-                  src={upcoming_event_image}
+                  src={techAThlon}
                   alt="event..."
                 ></img>
               </div>
@@ -57,7 +58,7 @@ export const Upcoming_event = () => {
         <div className="upcoming_event_middle_bottom_outer">
           <div className="upcoming_event_corner"></div>
           <div className="upcoming_event_bottom_button">
-            <a href="/"><button>Register Now</button></a>
+            <a href="https://unstop.com/hackathons/tech-a-thlon-20-bvest23-bharati-vidyapeeths-college-of-engineering-bvcoe-new-delhi-632485" target="_blank"><button>Register Now</button></a>
           </div>
           <div className="upcoming_event_corner"></div>
         </div>
@@ -84,7 +85,7 @@ Round 2: <br/>Reverse Coding: Input and output of the code will be given, the ta
               <div>
                 <img
                   className="upcoming_event_middle_right_photo upcoming_event_photo"
-                  src={upcoming_event_image}
+                  src={geekOut}
                   alt="event..."
                 ></img>
               </div>
@@ -97,7 +98,7 @@ Round 2: <br/>Reverse Coding: Input and output of the code will be given, the ta
         <div className="upcoming_event_middle_bottom_outer">
           <div className="upcoming_event_corner"></div>
           <div className="upcoming_event_bottom_button">
-            <a href="/"><button>Register Now</button></a>
+            <a href="https://unstop.com/hackathons/geek-out-bvest23-bharati-vidyapeeths-college-of-engineering-bvcoe-new-delhi-632554" target="_blank"><button>Register Now</button></a>
           </div>
           <div className="upcoming_event_corner"></div>
         </div>

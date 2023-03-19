@@ -56,7 +56,7 @@ function App()
           <Join_us />
         </div>
       </div>
-      <div className="text-4xl bg-red-900 rounded-full py-4 px-6 text-white scrollUp" onClick={()=> handleClick()} style={{display: `${isVisible?'inline':'none'}`}}>
+      <div className="text-4xl bg-red-900 rounded-full py-4 px-6 text-white scrollUp shadow-md" onClick={()=> handleClick()} style={{display: `${isVisible?'inline':'none'}`}}>
         <i class="fa-solid fa-arrow-up"></i>
       </div>
     </>

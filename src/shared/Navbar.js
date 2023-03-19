@@ -23,7 +23,7 @@ export const Navbar = () => {
               offset={-100}
               duration={500}
             >
-              <div className="navbar_right_content cursor-pointer">Home</div>
+              <div className="navbar_right_content cursor-pointer text-xl">Home</div>
             </Link>
             <Link
               to="about"
