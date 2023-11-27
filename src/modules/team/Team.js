@@ -1,16 +1,40 @@
 import { Team_card } from "./Team_card";
 import logo from "../../assets/images/logo.png";
-import parth from '../../assets/images/paarthbhasinphoto.png';
-import gaurav from '../../assets/images/Gaurav.jpeg';
-import akriti from '../../assets/images/AkritiSaxena.jpg';
-import tarushi from '../../assets/images/Tarushi_Mishra.jpeg';
-import artok from '../../assets/images/Dhruv_Kotra.jpeg';
-import chirag from '../../assets/images/Chirag_Jagyani.jpeg';
-import ayush from '../../assets/images/Ayush_Dixit.jpeg';
-import devanshi from '../../assets/images/devanshi.jpeg';
-import manish from '../../assets/images/manish.jpeg';
 import nehaMaam from '../../assets/images/nehaMaam.jpeg';
-import adityaRaghav from '../../assets/images/adityaRaghav.jpeg';
+import gaurav from '../../assets/images/Gaurav.jpeg';
+import muskanNisar from '../../assets/images/MuskanNisar.jpg';
+import Danish from '../../assets/images/Danish.jpg';
+import soniya from '../../assets/images/Soniya.jpg';
+import simriti from '../../assets/images/Simriti.jpg';
+import snehaVerma from '../../assets/images/SnehaVerma.jpg';
+import shreyaGirotra from '../../assets/images/ShreyaGirotra.jpg';
+import prachiBisht from '../../assets/images/PrachiBisht.jpg';
+import smritiSingh from '../../assets/images/SmritiSingh.jpg';
+import rudrakantTiwari from '../../assets/images/RudrakantTiwari.JPEG';
+import IshaMehra from '../../assets/images/IshaMehra.jpg';
+import AbhishekKumar from '../../assets/images/AbhishekKumar.jpg';
+import ishitaThakur from '../../assets/images/Ishita_thakur.jpg';
+import manish from '../../assets/images/manish.jpeg';
+import uday from '../../assets/images/Uday.jpg';
+import trijalSingh from '../../assets/images/trijal_singh.jpg';
+import aditiEM from '../../assets/images/Aditi_EMhead.jpeg';
+import hiteshEM from '../../assets/images/Hitesh_EMHead.jpg';
+import harshKumar from '../../assets/images/HARSHKUMAR.jpg';
+import aryanNarula from '../../assets/images/AryanNarula.jpg';
+import aryanZutshi from '../../assets/images/AryanZutshi_Outreach.jpg';
+import himanshiChauhan from '../../assets/images/HimanshiChauhan.jpg';
+import monuKumar from '../../assets/images/Monukumar.jpg';
+import namanGupta from '../../assets/images/NamanGupta.jpg';
+import musharrafHayat from '../../assets/images/Musharrafhayat.jpg';
+import surbhiSingh from '../../assets/images/Surbhisinghhead.jpg';
+import gungun from '../../assets/images/Gungun.jpg';
+import faisalAyub from '../../assets/images/FaisalAyub.jpg';
+import bhavyaKumar from '../../assets/images/BhavyaKumar.jpg';
+import ayesha from '../../assets/images/Ayesha_CnDHead.jpg';
+import vrinda from '../../assets/images/vrinda_cndViceHead.jpeg';
+import harshSharma from '../../assets/images/HarshSharma.png';
+import vishesh from '../../assets/images/Vishesh.jpg';
+
 import mayankGoel from '../../assets/images/mayankGoel.jpeg';
 
 export const Team = () => {
@@ -45,119 +69,290 @@ export const Team = () => {
           </div>
         </div>
         </div>
-        <div className="text-center mt-2 text-2xl font-bold">Lead Core</div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 m-auto w-fit mt-8">
-          {/* <Team_card
-            name="Akriti Saxena"
-            designation="Vice Chairperson"
-            instagram="https://www.instagram.com/Akritisaxena_08"
-            linkedin="https://www.linkedin.com/in/akriti-saxena-083471203"
-            photo={akriti}
-          /> */}
+        <div className="text-center my-16 text-4xl font-bold">Core Team</div>
+        <div className="text-center mt-2 text-2xl font-bold">Lead Core Team</div>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-8 gap-y-4 m-auto w-fit mt-8">
           <Team_card
-            name="Parth Bhasin"
-            designation="Chairperson"
+            name="Muskan Nisar"
+            designation="Vice Chairperson"
             instagram="https://www.instagram.com/paarth1674/"
             linkedin="www.linkedin.com/in/paarth-bhasin"
-            photo={parth}
+            photo={Danish}
           />
           <Team_card
             name="Gaurav"
-            designation="Vice Chairperson"
+            designation="Chairperson"
             instagram="https://www.instagram.com/gauravvv_1"
             linkedin="https://www.linkedin.com/in/notgaurav/"
             photo={gaurav}
           />
-        </div>
-        
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 m-auto w-fit mt-8">
           <Team_card
-            name="Devanshi Singh"
-            designation="General Secretary"
+            name="Md Danish"
+            designation="Vice Chairperson"
             instagram="https://www.instagram.com/_devaanshii_/"
             linkedin="https://www.linkedin.com/in/devanshi-singh-211427212"
-            photo={devanshi}
+            photo={muskanNisar}
+          />
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-8 gap-y-4 m-auto w-fit mt-8">
+          <Team_card
+            name="Soniya"
+            designation="Joint Secretary"
+            instagram="https://www.instagram.com/paarth1674/"
+            linkedin="www.linkedin.com/in/paarth-bhasin"
+            photo={soniya}
           />
           <Team_card
-            name="Tarushi Mishra"
+            name="Smriti Chaudhary"
             designation="Treasurer"
-            instagram="https://www.instagram.com/tarushi_mishra "
-            linkedin="https://www.linkedin.com/in/tarushi-mishra-640759212/"
-            photo={tarushi}
+            instagram="https://www.instagram.com/gauravvv_1"
+            linkedin="https://www.linkedin.com/in/notgaurav/"
+            photo={simriti}
+          />
+          <Team_card
+            name="Sneha Verma"
+            designation="Co Joint Secretary"
+            instagram="https://www.instagram.com/_devaanshii_/"
+            linkedin="https://www.linkedin.com/in/devanshi-singh-211427212"
+            photo={snehaVerma}
           />
         </div>
         <div className="text-center my-16 text-4xl font-bold">Department Heads</div>
         <div className="text-center mt-2 text-2xl font-bold">Design Heads</div>
-        <div className="grid grid-cols-1 sm:grid-cols-1 gap-x-8 gap-y-4 m-auto w-fit mt-8">
-
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-8 gap-y-4 m-auto w-fit mt-8">
           <Team_card
-            name="Dhruv Kotra"
+            name="Prachi bisht"
             designation="Design Head"
-            instagram="https://instagram.com/artok.photography?igshid=YmMyMTA2M2Y="
-            linkedin="https://www.linkedin.com/in/dhruv-kotra-2aa057252"
-            photo={artok}
+            instagram="https://www.instagram.com/paarth1674/"
+            linkedin="www.linkedin.com/in/paarth-bhasin"
+            photo={prachiBisht}
+          />
+          <Team_card
+            name="Shreya Girotra"
+            designation="Creativity Lead"
+            instagram="https://www.instagram.com/gauravvv_1"
+            linkedin="https://www.linkedin.com/in/notgaurav/"
+            photo={shreyaGirotra}
+          />
+          <Team_card
+            name="Smriti"
+            designation="Design Head"
+            instagram="https://www.instagram.com/_devaanshii_/"
+            linkedin="https://www.linkedin.com/in/devanshi-singh-211427212"
+            photo={smritiSingh}
+          />
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 m-auto w-fit mt-8">
+          <Team_card
+            name="Rudrakant Tiwari"
+            designation="Design Vice Head"
+            instagram="https://www.instagram.com/paarth1674/"
+            linkedin="www.linkedin.com/in/paarth-bhasin"
+            photo={rudrakantTiwari}
+          />
+          <Team_card
+            name="Isha mehra"
+            designation="Design Vice Head"
+            instagram="https://www.instagram.com/gauravvv_1"
+            linkedin="https://www.linkedin.com/in/notgaurav/"
+            photo={IshaMehra}
           />
         </div>
         <div className="text-center mt-2 text-2xl font-bold">Technical Heads</div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 m-auto w-fit mt-8">
-
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-8 gap-y-4 m-auto w-fit mt-8">
           <Team_card
-            name="Mayank Goel"
+            name="Abhishek Kumar"
             designation="Technical Head"
-            instagram="https://www.instagram.com/goel.mayank235/"
-            linkedin="https://www.linkedin.com/in/yellowbeard36"
-            photo={mayankGoel}
+            instagram="https://www.instagram.com/paarth1674/"
+            linkedin="www.linkedin.com/in/paarth-bhasin"
+            photo={AbhishekKumar}
           />
           <Team_card
             name="Manish Sharma"
-            designation="Technical Head"
-            instagram="https://www.instagram.com/llmanish_17ll/"
-            linkedin="https://www.linkedin.com/in/manish-sharma-2a6778212/"
+            designation="Technical Lead"
+            instagram="https://www.instagram.com/gauravvv_1"
+            linkedin="https://www.linkedin.com/in/notgaurav/"
             photo={manish}
+          />
+          <Team_card
+            name="Ishita Thakur"
+            designation="Technical Head"
+            instagram="https://www.instagram.com/_devaanshii_/"
+            linkedin="https://www.linkedin.com/in/devanshi-singh-211427212"
+            photo={ishitaThakur}
+          />
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 m-auto w-fit mt-8">
+          <Team_card
+            name="Trijal Singh"
+            designation="Technical Vice Head"
+            instagram="https://www.instagram.com/paarth1674/"
+            linkedin="www.linkedin.com/in/paarth-bhasin"
+            photo={trijalSingh}
+          />
+          <Team_card
+            name="Uday Garg"
+            designation="Technical Vice Head"
+            instagram="https://www.instagram.com/gauravvv_1"
+            linkedin="https://www.linkedin.com/in/notgaurav/"
+            photo={uday}
           />
         </div>
         <div className="text-center mt-2 text-2xl font-bold">Event Management Heads</div>
-        <div className="grid grid-cols-1 sm:grid-cols-1 gap-x-8 gap-y-4 m-auto w-fit mt-8">
-
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 m-auto w-fit mt-8">
           <Team_card
-            name="Chirag Jagyani"
-            designation="Event Management Head"
-            instagram="https://www.instagram.com/chirag_jagyani/"
-            linkedin="http://www.linkedin.com/in/chirag-jagyani-3540061b6"
-            photo={chirag}
+            name="Aditi"
+            designation="EM Head"
+            instagram="https://www.instagram.com/paarth1674/"
+            linkedin="www.linkedin.com/in/paarth-bhasin"
+            photo={aditiEM}
+          />
+          <Team_card
+            name="Hitesh"
+            designation="EM Head"
+            instagram="https://www.instagram.com/gauravvv_1"
+            linkedin="https://www.linkedin.com/in/notgaurav/"
+            photo={hiteshEM}
+          />
+        </div><div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 m-auto w-fit mt-8">
+          <Team_card
+            name="Aryan Narula"
+            designation="EM Vice Head"
+            instagram="https://www.instagram.com/paarth1674/"
+            linkedin="www.linkedin.com/in/paarth-bhasin"
+            photo={aryanNarula}
+          />
+          <Team_card
+            name="Harsh Kumar"
+            designation="EM Vice Head"
+            instagram="https://www.instagram.com/gauravvv_1"
+            linkedin="https://www.linkedin.com/in/notgaurav/"
+            photo={harshKumar}
           />
         </div>
-        <div className="text-center mt-2 text-2xl font-bold">Operation Heads</div>
-        <div className="grid grid-cols-1 sm:grid-cols-1 gap-x-8 gap-y-4 m-auto w-fit mt-8">
+        <div className="text-center mt-2 text-2xl font-bold">Outreach Heads</div>
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-x-8 gap-y-4 m-auto w-fit mt-8">
           <Team_card
-            name="Ayush Dixit"
-            designation="Operation Head"
-            instagram="https://www.instagram.com/ayush_dixit_15/"
-            linkedin="https://www.linkedin.com/in/ayush-dixit-013632203/"
-            photo={ayush}
+            name="Monu Kumar"
+            designation="Outreach Head"
+            instagram="https://www.instagram.com/paarth1674/"
+            linkedin="www.linkedin.com/in/paarth-bhasin"
+            photo={monuKumar}
+          />
+          <Team_card
+            name="Aryan zutshi"
+            designation="Outreach Lead"
+            instagram="https://www.instagram.com/gauravvv_1"
+            linkedin="https://www.linkedin.com/in/notgaurav/"
+            photo={aryanZutshi}
+          />
+          <Team_card
+            name="Himanshi chauhan"
+            designation="Outreach Head"
+            instagram="https://www.instagram.com/_devaanshii_/"
+            linkedin="https://www.linkedin.com/in/devanshi-singh-211427212"
+            photo={himanshiChauhan}
           />
         </div>
-        <div className="text-center mt-2 text-2xl font-bold">Social Media Heads</div>
-        <div className="grid grid-cols-1 sm:grid-cols-1 gap-x-8 gap-y-4 m-auto w-fit mt-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 m-auto w-fit mt-8">
           <Team_card
-            name="Aditya Raghav"
-            designation="Social Media Head"
-            instagram="https://www.instagram.com/i_am_addy_raghav/"
-            linkedin="https://www.linkedin.com/in/aditya-56bbb6223/"
-            photo={adityaRaghav}
+            name="Musarraf Hayat"
+            designation="Outreach Vice Head"
+            instagram="https://www.instagram.com/paarth1674/"
+            linkedin="www.linkedin.com/in/paarth-bhasin"
+            photo={musharrafHayat}
+          />
+          <Team_card
+            name="Naman Gupta"
+            designation="Outreach Vice Head"
+            instagram="https://www.instagram.com/gauravvv_1"
+            linkedin="https://www.linkedin.com/in/notgaurav/"
+            photo={namanGupta}
           />
         </div>
-        {/* <div className="text-center mt-2 text-2xl font-bold">Publicity Heads</div>
-        <div className="grid grid-cols-1 sm:grid-cols-1 gap-x-8 gap-y-4 m-auto w-fit mt-8">
+        <div className="text-center mt-2 text-2xl font-bold">Social Media &amp; Publicity Heads</div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 m-auto w-fit mt-8">
           <Team_card
-            name="Aditya Pant"
-            designation="Publicity Head"
-            instagram="https://www.google.com/"
-            linkedin="http://www.linkedin.com/in/chirag-jagyani-3540061b6"
+            name="Surbhi Singh"
+            designation="SM Head"
+            instagram="https://www.instagram.com/paarth1674/"
+            linkedin="www.linkedin.com/in/paarth-bhasin"
+            photo={surbhiSingh}
+          />
+          <Team_card
+            name="Anju"
+            designation="SM Head"
+            instagram="https://www.instagram.com/gauravvv_1"
+            linkedin="https://www.linkedin.com/in/notgaurav/"
             photo={logo}
           />
-        </div> */}
+        </div><div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 m-auto w-fit mt-8">
+          <Team_card
+            name="Gungun"
+            designation="SM Vice Head"
+            instagram="https://www.instagram.com/paarth1674/"
+            linkedin="www.linkedin.com/in/paarth-bhasin"
+            photo={gungun}
+          />
+          <Team_card
+            name="Faisal Ayub"
+            designation="SM Vice Head"
+            instagram="https://www.instagram.com/gauravvv_1"
+            linkedin="https://www.linkedin.com/in/notgaurav/"
+            photo={faisalAyub}
+          />
+        </div>
+        <div className="text-center mt-2 text-2xl font-bold">Content &amp; Documentation Heads</div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 m-auto w-fit mt-8">
+          <Team_card
+            name="Bhavya"
+            designation="C&amp;D Head"
+            instagram="https://www.instagram.com/paarth1674/"
+            linkedin="www.linkedin.com/in/paarth-bhasin"
+            photo={bhavyaKumar}
+          />
+          <Team_card
+            name="Ayesha"
+            designation="C&amp;D Head"
+            instagram="https://www.instagram.com/gauravvv_1"
+            linkedin="https://www.linkedin.com/in/notgaurav/"
+            photo={ayesha}
+          />
+        </div><div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 m-auto w-fit mt-8">
+          <Team_card
+            name="Subhangi"
+            designation="C&amp;D Vice Head"
+            instagram="https://www.instagram.com/paarth1674/"
+            linkedin="www.linkedin.com/in/paarth-bhasin"
+            photo={logo}
+          />
+          <Team_card
+            name="Vrinda"
+            designation="C&amp;D Vice Head"
+            instagram="https://www.instagram.com/gauravvv_1"
+            linkedin="https://www.linkedin.com/in/notgaurav/"
+            photo={vrinda}
+          />
+        </div>
+        <div className="text-center mt-2 text-2xl font-bold">Video Editing Heads</div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-4 m-auto w-fit mt-8">
+          <Team_card
+            name="Harsh Sharma"
+            designation="Video Editing Head"
+            instagram="https://www.instagram.com/paarth1674/"
+            linkedin="www.linkedin.com/in/paarth-bhasin"
+            photo={harshSharma}
+          />
+          <Team_card
+            name="Vishesh"
+            designation="Video Editing Head"
+            instagram="https://www.instagram.com/gauravvv_1"
+            linkedin="https://www.linkedin.com/in/notgaurav/"
+            photo={vishesh}
+          />
+        </div>
       </div>
+      
     </>
   );
 };

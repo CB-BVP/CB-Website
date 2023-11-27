@@ -1,8 +1,7 @@
 import "../../css/upcoming events/Upcoming_events.css";
-import techAThlon from "../../assets/images/techAThlon.jpeg";
-import geekOut from "../../assets/images/geekOut.jpeg";
 import { Frame_top } from "../../shared/Frame_top";
 import { Frame_bottom } from "../../shared/Frame_bottom";
+import comingSoon from '../../assets/images/comingSoon.jpg'
 
 export const Upcoming_event = () => {
   return (
@@ -23,17 +22,13 @@ export const Upcoming_event = () => {
           <div className="upcoming_event_middle_left">
             <div className="upcoming_event_middle_left_heading_outer">
               <div className="upcoming_event_middle_left_heading upcoming_events_font">
-                Tech-A-Thlon
+                Stay Tuned
               </div>
               <div className="upcoming_event_middle_left_heading_design"></div>
             </div>
             <div className="upcoming_event_middle_left_content_outer">
               <div className="upcoming_event_middle_left_content content_font">
-                Round 1: General Quiz on the G20 summit: This round will focus on the general aptitude of participants on the G20 summit. It will also focus on general technology related questions. In every round participants will be eliminated based on the points they score.
-                <br/>
-                Round 2: Code Debugging: The participants will have to debug the code given to them.
-                <br/>
-                Round 3: Competitive Coding: About 1.5 hours will be given to solve the questions given which will also include the theme of bvest.
+                Many great events are lined up for you so stay tuned ;)
               </div>
             </div>
           </div>
@@ -44,8 +39,8 @@ export const Upcoming_event = () => {
               </div>
               <div>
                 <img
-                  className="upcoming_event_middle_right_photo upcoming_event_photo"
-                  src={techAThlon}
+                  className="upcoming_event_middle_right_photo upcoming_event_photo object-contain"
+                  src={comingSoon}
                   alt="event..."
                 ></img>
               </div>
@@ -58,11 +53,11 @@ export const Upcoming_event = () => {
         <div className="upcoming_event_middle_bottom_outer">
           <div className="upcoming_event_corner"></div>
           <div className="upcoming_event_bottom_button">
-            <a href="https://unstop.com/hackathons/tech-a-thlon-20-bvest23-bharati-vidyapeeths-college-of-engineering-bvcoe-new-delhi-632485" target="_blank"><button>Register Now</button></a>
+            <div href="/"><button>Coming Soon</button></div>
           </div>
           <div className="upcoming_event_corner"></div>
         </div>
-        <div className="upcoming_event_middle_outer">
+        {/* <div className="upcoming_event_middle_outer">
           <div className="upcoming_event_middle_left">
             <div className="upcoming_event_middle_left_heading_outer">
               <div className="upcoming_event_middle_left_heading upcoming_events_font">
@@ -71,10 +66,10 @@ export const Upcoming_event = () => {
               <div className="upcoming_event_middle_left_heading_design"></div>
             </div>
             <div className="upcoming_event_middle_left_content_outer">
-              <div className="upcoming_event_middle_left_content content_font">Round 1: <br/> Coding Jiggle: Arrange the jiggled lines of code
-              <br/>
-              <br/>
-Round 2: <br/>Reverse Coding: Input and output of the code will be given, the task is to write the approriate code</div>
+              <div className="upcoming_event_middle_left_content content_font">Round 1: <br /> Coding Jiggle: Arrange the jiggled lines of code
+                <br />
+                <br />
+                Round 2: <br />Reverse Coding: Input and output of the code will be given, the task is to write the approriate code</div>
             </div>
           </div>
           <div className="upcoming_event_middle_right_outer">
@@ -84,8 +79,8 @@ Round 2: <br/>Reverse Coding: Input and output of the code will be given, the ta
               </div>
               <div>
                 <img
-                  className="upcoming_event_middle_right_photo upcoming_event_photo"
-                  src={geekOut}
+                  className="upcoming_event_middle_right_photo upcoming_event_photo object-contain"
+                  src={comingSoon}
                   alt="event..."
                 ></img>
               </div>
@@ -101,7 +96,7 @@ Round 2: <br/>Reverse Coding: Input and output of the code will be given, the ta
             <a href="https://unstop.com/hackathons/geek-out-bvest23-bharati-vidyapeeths-college-of-engineering-bvcoe-new-delhi-632554" target="_blank"><button>Register Now</button></a>
           </div>
           <div className="upcoming_event_corner"></div>
-        </div>
+        </div> */}
         <div className="text-transparent">b</div>
       </div>
     </>
